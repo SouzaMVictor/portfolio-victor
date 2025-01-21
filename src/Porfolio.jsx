@@ -2,6 +2,9 @@ import PropTypes from "prop-types";
 import PortfolioVictor from "./assets/portfolioVictor.png";
 import ImgVictor from "./assets/imgvictor2.jpg";
 import ImgAntonio from "./assets/drAntonio.png";
+import AccordionComponent from "./assets/accordion-component.png";
+import GuessMyNumber from "./assets/guess-my-number.png";
+import Glass from "./assets/glass.png";
 //colocar link em cada um --> github e vercel
 //read more nos textos do portfolio
 const initialPortfolio = [
@@ -48,12 +51,12 @@ const initialPortfolio = [
   {
     id: 5,
     title: "Accordion Component",
-    image: ImgVictor,
+    image: AccordionComponent,
     tools: "React",
     description:
       "Practice component for a React course I was taking. With this, I was able to understand even better about state management. Also, it's easy to reuse in many other situations.",
     github: "https://github.com/SouzaMVictor/accordion-component",
-    link: "#",
+    link: "https://accordion-component-alpha.vercel.app/",
   },
   {
     id: 6,
@@ -77,7 +80,7 @@ const initialPortfolio = [
   {
     id: 8,
     title: "Guess My Number",
-    image: ImgAntonio,
+    image: GuessMyNumber,
     tools: "HTML, CSS & Javascript",
     description:
       "Game where you have to guess a random number behind the question mark. Included in it's functionalities, a highscore will be saved, getting the number wrong decreases the ponctuation and so on. Pretty fun! Perfect for playing with friends.",
@@ -87,7 +90,7 @@ const initialPortfolio = [
   {
     id: 9,
     title: "Glassmorphism",
-    image: ImgVictor,
+    image: Glass,
     tools: "HTML & CSS",
     description:
       "Hoping on a viral trend on the internet, I created this website to test my skills with HTML and CSS. It has no real usability but it's actually really pretty. The translucent box gives a fine touch to this modal!",
@@ -120,17 +123,17 @@ const initialPortfolio = [
     image: ImgVictor,
     tools: "HTML & Tailwind",
     description:
-      "Practice assignmente for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
+      "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
     github: "https://github.com/SouzaMVictor/portfolio-victor",
     link: "#",
   },
   {
     id: 13,
-    title: "Image Galary",
+    title: "Image Galery",
     image: ImgVictor,
     tools: "HTML & Tailwind",
     description:
-      "Practice assignmente for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
+      "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
     github: "https://github.com/SouzaMVictor/portfolio-victor",
     link: "#",
   },
@@ -140,7 +143,7 @@ const initialPortfolio = [
     image: ImgVictor,
     tools: "HTML & Tailwind",
     description:
-      "Practice assignmente for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
+      "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
     github: "https://github.com/SouzaMVictor/portfolio-victor",
     link: "#",
   },
