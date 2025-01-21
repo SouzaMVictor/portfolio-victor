@@ -4,6 +4,7 @@ import { MainApp } from "./MainApp";
 import { AboutApp } from "./AboutApp";
 import { Skills } from "./Skills";
 import { Porfolio } from "./Porfolio";
+import { ContactMe } from "./ContactMe";
 //arrumar organização dos componentes (remover desnecessários{mainapp??})
 //responsividade!!
 //scroll events: vida ao app
@@ -18,9 +19,9 @@ function App() {
       <AboutApp />
       <Skills />
       <Porfolio />
+      <ContactMe />
       <FooterMobile />
     </div>
   );
 }
-
 export default App;

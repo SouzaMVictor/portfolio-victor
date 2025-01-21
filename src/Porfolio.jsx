@@ -3,6 +3,7 @@ import PortfolioVictor from "./assets/portfolioVictor.png";
 import ImgVictor from "./assets/imgvictor2.jpg";
 import ImgAntonio from "./assets/drAntonio.png";
 //colocar link em cada um --> github e vercel
+//read more nos textos do portfolio
 const initialPortfolio = [
   {
     id: 1,
@@ -153,7 +154,7 @@ export function Porfolio() {
           <div className="h-[1px] w-32 bg-amber-300 inline-block align-middle mx-5"></div>
         </h2>
       </div>
-      <ul className="text-amber-50 mx-6 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-32">
+      <ul className="text-amber-50 mx-6 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-1">
         {initialPortfolio.map((product) => (
           <Product product={product} key={product.id} />
         ))}
