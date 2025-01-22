@@ -7,6 +7,7 @@ import GuessMyNumber from "./assets/guess-my-number.png";
 import Glass from "./assets/glass.png";
 import TipCalc from "./assets/tip-calculator.png";
 import EatNSplit from "./assets/eatnsplit.png";
+import FarAway from "./assets/faraway.png";
 //colocar link em cada um --> github e vercel
 //read more nos textos do portfolio(text expander)
 const initialPortfolio = [
@@ -43,7 +44,7 @@ const initialPortfolio = [
   {
     id: 4,
     title: "Far Away: Travel List",
-    image: ImgAntonio,
+    image: FarAway,
     tools: "React",
     description:
       "I developed a website in React that serves as a travel checklist. It allows users to add, edit, and check off items, ensuring nothing essential is forgotten before a trip. It's a simple yet incredibly useful tool for organizing travels efficiently. While developing it, I enhanced my skills in state management with React and focused on creating an intuitive and functional interface.",
