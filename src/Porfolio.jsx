@@ -142,19 +142,19 @@ const initialPortfolio = [
     tools: "HTML & Tailwind",
     description:
       "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
-    github: "https://github.com/SouzaMVictor/pricing-cards",
+    github: "https://github.com/SouzaMVictor/image-gallery",
     link: "https://cd4ncp.csb.app/",
   },
-  {
-    id: 14,
-    title: "Login Modal",
-    image: ImgVictor,
-    tools: "HTML & Tailwind",
-    description:
-      "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
-  },
+  // {
+  //   id: 14,
+  //   title: "Login Modal",
+  //   image: ImgVictor,
+  //   tools: "HTML & Tailwind",
+  //   description:
+  //     "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
+  //   github: "https://github.com/SouzaMVictor/portfolio-victor",
+  //   link: "#",
+  // },
 ];
 export function Porfolio() {
   return (
