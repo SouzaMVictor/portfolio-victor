@@ -8,6 +8,7 @@ import Glass from "./assets/glass.png";
 import TipCalc from "./assets/tip-calculator.png";
 import EatNSplit from "./assets/eatnsplit.png";
 import FarAway from "./assets/faraway.png";
+import FlashCards from "./assets/flashcards.png";
 //colocar link em cada um --> github e vercel
 //read more nos textos do portfolio(text expander)
 const initialPortfolio = [
@@ -48,8 +49,8 @@ const initialPortfolio = [
     tools: "React",
     description:
       "I developed a website in React that serves as a travel checklist. It allows users to add, edit, and check off items, ensuring nothing essential is forgotten before a trip. It's a simple yet incredibly useful tool for organizing travels efficiently. While developing it, I enhanced my skills in state management with React and focused on creating an intuitive and functional interface.",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
+    github: "https://github.com/SouzaMVictor/far-away-travel-list",
+    link: "#https://far-away-travel-list-psi.vercel.app/",
   },
   {
     id: 5,
@@ -64,11 +65,11 @@ const initialPortfolio = [
   {
     id: 6,
     title: "Flash Cards in React",
-    image: ImgAntonio,
+    image: FlashCards,
     tools: "React",
     description: "Practice game for a React course about React and it's tools.",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
+    github: "https://github.com/SouzaMVictor/flash-cards",
+    link: "https://d5dnlg.csb.app/",
   },
   {
     id: 7,
