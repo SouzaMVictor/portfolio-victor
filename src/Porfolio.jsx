@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import PortfolioVictor from "./assets/portfolioVictor.png";
-import ImgVictor from "./assets/imgvictor2.jpg";
 import ImgAntonio from "./assets/drAntonio.png";
 import AccordionComponent from "./assets/accordion-component.png";
 import GuessMyNumber from "./assets/guess-my-number.png";
@@ -13,7 +12,6 @@ import EmailSubscribe from "./assets/email-subscribe.png";
 import PricingGrid from "./assets/pricing.png";
 import ProductModal from "./assets/product-modal.png";
 import Galery from "./assets/image-grid.png";
-//colocar link em cada um --> github e vercel
 //read more nos textos do portfolio(text expander)
 const initialPortfolio = [
   {
