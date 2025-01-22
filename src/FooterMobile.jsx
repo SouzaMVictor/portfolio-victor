@@ -1,4 +1,5 @@
 export function FooterMobile() {
+  //fundir navbar e footer para responsividade (pq nao pensei nisso antes?)
   return (
     <footer className="fixed bg-opacity-80 backdrop-blur-sm bottom-0 left-0 z-20 w-full p-4 bg-zinc-950 rounded-t-2xl border-t-2 border-t-zinc-800">
       <div className="flex justify-around font-semibold text-amber-50">

@@ -1,6 +1,6 @@
 import githubLogo from "./assets/githubLogo.png";
 import linkedinLogo from "./assets/iconmonstr-linkedin-3.svg";
-
+// fundir navbar e footer para responsividade(pq nao pensei nisso antes?)
 export function NavbarMobile() {
   return (
     <nav className="flex justify-between p-8">

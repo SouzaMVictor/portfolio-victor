@@ -5,8 +5,9 @@ import ImgAntonio from "./assets/drAntonio.png";
 import AccordionComponent from "./assets/accordion-component.png";
 import GuessMyNumber from "./assets/guess-my-number.png";
 import Glass from "./assets/glass.png";
+import TipCalc from "./assets/tip-calculator.png";
 //colocar link em cada um --> github e vercel
-//read more nos textos do portfolio
+//read more nos textos do portfolio(text expander)
 const initialPortfolio = [
   {
     id: 1,
@@ -70,12 +71,12 @@ const initialPortfolio = [
   {
     id: 7,
     title: "Tip Calculator",
-    image: ImgVictor,
+    image: TipCalc,
     tools: "React",
     description:
       "Simple React web app for splitting the bill and calculate how much tip the person should add based on the quality of the offered service",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
+    github: "https://github.com/SouzaMVictor/tip-calculator",
+    link: "https://ydqkc8.csb.app/",
   },
   {
     id: 8,
@@ -95,7 +96,7 @@ const initialPortfolio = [
     description:
       "Hoping on a viral trend on the internet, I created this website to test my skills with HTML and CSS. It has no real usability but it's actually really pretty. The translucent box gives a fine touch to this modal!",
     github: "https://github.com/SouzaMVictor/Glassmorphism",
-    link: "#",
+    link: "https://5mxxw5.csb.app/",
   },
   {
     id: 10,
@@ -157,7 +158,7 @@ export function Porfolio() {
           <div className="h-[1px] w-32 bg-amber-300 inline-block align-middle mx-5"></div>
         </h2>
       </div>
-      <ul className="text-amber-50 mx-6 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-1">
+      <ul className="text-amber-50 mx-6 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 mb-1">
         {initialPortfolio.map((product) => (
           <Product product={product} key={product.id} />
         ))}
