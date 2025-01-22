@@ -18,7 +18,7 @@ const initialPortfolio = [
     description:
       "I created this portfolio website using React and Tailwind CSS, and it was an amazing experience! React won me over with its flexibility and the intuitive way of building dynamic interfaces. Tailwind CSS stole my heart with its simplicity and complete control over design, without needing to write tons of CSS. These tools have transformed the way I develop and made me fall even more in love with the world of web development!",
     github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
+    link: "https://devvictor.vercel.app/",
   },
   {
     id: 2,
