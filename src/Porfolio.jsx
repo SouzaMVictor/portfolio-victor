@@ -9,6 +9,10 @@ import TipCalc from "./assets/tip-calculator.png";
 import EatNSplit from "./assets/eatnsplit.png";
 import FarAway from "./assets/faraway.png";
 import FlashCards from "./assets/flashcards.png";
+import EmailSubscribe from "./assets/email-subscribe.png";
+import PricingGrid from "./assets/pricing.png";
+import ProductModal from "./assets/product-modal.png";
+import Galery from "./assets/image-grid.png";
 //colocar link em cada um --> github e vercel
 //read more nos textos do portfolio(text expander)
 const initialPortfolio = [
@@ -104,42 +108,42 @@ const initialPortfolio = [
   {
     id: 10,
     title: "Email Subscribe Card",
-    image: ImgVictor,
+    image: EmailSubscribe,
     tools: "HTML & Tailwind",
     description:
       "Pratice assingment for this Tailwind Course I was taking. My very first project using Tailwind standalone! Not writing tons of CSS was really a awesome experience.",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
+    github: "https://github.com/SouzaMVictor/email-subscribe",
+    link: "https://7d5259.csb.app/",
   },
   {
     id: 11,
     title: "Princing Grids",
-    image: ImgVictor,
+    image: PricingGrid,
     tools: "HTML & Tailwind",
     description:
       "Practice assignmente for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
+    github: "https://github.com/SouzaMVictor/pricing-cards",
     link: "#",
   },
   {
     id: 12,
     title: "Product Modal",
-    image: ImgVictor,
+    image: ProductModal,
     tools: "HTML & Tailwind",
     description:
       "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
+    github: "https://github.com/SouzaMVictor/product-modal",
+    link: "https://lzjz93.csb.app/",
   },
   {
     id: 13,
     title: "Image Galery",
-    image: ImgVictor,
+    image: Galery,
     tools: "HTML & Tailwind",
     description:
       "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
+    github: "https://github.com/SouzaMVictor/pricing-cards",
+    link: "https://cd4ncp.csb.app/",
   },
   {
     id: 14,

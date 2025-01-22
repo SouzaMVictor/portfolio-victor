@@ -15,11 +15,9 @@ export function ContactMe() {
         </h2>
         <button>
           <input
-            className="text-zinc-950"
-            type="email"
-            name="email"
-            id="email"
-            placeholder="         Enter your email"
+            type="text"
+            placeholder="Enter your email address"
+            className="p-2 px-4 text-center text-white bg-zinc-800 border border-amber-300 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"
           />
         </button>
         <button>zapzap</button>
