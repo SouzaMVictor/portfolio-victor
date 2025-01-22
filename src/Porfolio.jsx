@@ -6,6 +6,7 @@ import AccordionComponent from "./assets/accordion-component.png";
 import GuessMyNumber from "./assets/guess-my-number.png";
 import Glass from "./assets/glass.png";
 import TipCalc from "./assets/tip-calculator.png";
+import EatNSplit from "./assets/eatnsplit.png";
 //colocar link em cada um --> github e vercel
 //read more nos textos do portfolio(text expander)
 const initialPortfolio = [
@@ -32,12 +33,12 @@ const initialPortfolio = [
   {
     id: 3,
     title: "Eat 'N Split",
-    image: ImgVictor,
+    image: EatNSplit,
     tools: "React",
     description:
       "I developed this website in React to make splitting restaurant bills simple and practical. With it, you can calculate how much each person should pay. It's the perfect solution to avoid confusion when settling the bill and to ensure everyone contributes fairly. This project allowed me to explore React features, such as states and dynamic calculations, while creating something useful for everyday situations!",
-    github: "https://github.com/SouzaMVictor/portfolio-victor",
-    link: "#",
+    github: "https://github.com/SouzaMVictor/eat-n-split",
+    link: "https://eat-n-split-seven-bay.vercel.app/",
   },
   {
     id: 4,
