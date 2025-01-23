@@ -1,4 +1,7 @@
 import PropTypes from "prop-types";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export function Skills() {
   const initialSkills = [
@@ -69,9 +72,12 @@ export function Skills() {
       color: "#e83615",
     },
   ];
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="pb-1">
-      <div className="flex justify-center pt-3">
+      <div data-aos="fade-up" className="flex justify-center pt-3">
         <h2 className="text-amber-50 text-2xl font-semibold my-6 inline-block">
           Skills
           <div className="h-[1px] w-32 bg-amber-300 inline-block align-middle mx-5"></div>
@@ -89,6 +95,9 @@ export function Skills() {
 function Skill({ skill }) {
   return (
     <li
+      data-aos="zoom-in-up"
+      data-aos-delay="500"
+      data-aos-duration="500"
       className="py-6  text-xl border border-amber-300 rounded-sm text-yellow-50 flex justify-center hover:scale-105 duration-300"
       style={{
         transition: "background-color 0.3s ease, transform 0.3s ease",

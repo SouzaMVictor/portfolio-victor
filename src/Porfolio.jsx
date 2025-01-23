@@ -12,6 +12,9 @@ import EmailSubscribe from "./assets/email-subscribe.png";
 import PricingGrid from "./assets/pricing.png";
 import ProductModal from "./assets/product-modal.png";
 import Galery from "./assets/image-grid.png";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 //read more nos textos do portfolio(text expander)
 const initialPortfolio = [
   {
@@ -155,10 +158,16 @@ const initialPortfolio = [
   // },
 ];
 export function Porfolio() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="pb-1">
       <div className="flex justify-center pt-3">
-        <h2 className="text-amber-50 text-2xl font-semibold my-6 inline-block">
+        <h2
+          data-aos="fade-up"
+          className="text-amber-50 text-2xl font-semibold my-6 inline-block"
+        >
           Portfolio
           <div className="h-[1px] w-32 bg-amber-300 inline-block align-middle mx-5"></div>
         </h2>
@@ -174,7 +183,11 @@ export function Porfolio() {
 
 function Product({ product }) {
   return (
-    <li>
+    <li
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+    >
       <div className="bg-zinc-900 border-2 border-zinc-800 rounded p-4 hover:md:bg-zinc-800 duration-300 cursor-pointer hover:md:scale-105 text-amber-50">
         <img src={product.image} alt={product.title} className="rounded" />
         <span className="flex justify-center font-medium my-3">

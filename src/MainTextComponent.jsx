@@ -1,7 +1,19 @@
 import { TypeAnimation } from "react-type-animation";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export function MainTextComponent() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="flex flex-col justify-center items-center space-y-2 md:space-y-4">
+    <div
+      data-aos="fade-left"
+      data-aos-delay="800"
+      data-aos-easing="ease-in-sine"
+      className="flex flex-col justify-center items-center space-y-2 md:space-y-4"
+    >
       <p className="text-lg text-amber-200">Hello World! I&apos;m</p>
       <h1 className="text-4xl font-bold text-amber-50">Victor Souza</h1>
       <div className="text-amber-50 md:text-sm">

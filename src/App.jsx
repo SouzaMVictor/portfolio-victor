@@ -1,12 +1,11 @@
-import { FooterMobile } from "./FooterMobile";
 import { NavbarMobile } from "./NavbarMobile";
 import { MainApp } from "./MainApp";
 import { AboutApp } from "./AboutApp";
 import { Skills } from "./Skills";
 import { Porfolio } from "./Porfolio";
 import { ContactMe } from "./ContactMe";
-//arrumar organização dos componentes (remover desnecessários{mainapp??})
-//responsividade!!
+
+//responsividade!! --> navbar e footer juntos (nao esquecer)
 //scroll events: vida ao app
 //hover events
 //target events
@@ -20,7 +19,6 @@ function App() {
       <Skills />
       <Porfolio />
       <ContactMe />
-      <FooterMobile />
     </div>
   );
 }
