@@ -6,8 +6,6 @@ import { Porfolio } from "./Porfolio";
 import { ContactMe } from "./ContactMe";
 
 //responsividade!! --> navbar e footer juntos (nao esquecer)
-//scroll events: vida ao app
-//hover events
 //target events
 //imagens em webp
 function App() {

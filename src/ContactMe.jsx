@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import Zap from "./assets/icons8-whatsapp (1).svg";
+import linkedinLogo from "./assets/icons8-linkedin.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export function ContactMe() {
@@ -33,8 +35,18 @@ export function ContactMe() {
             className="p-2 px-4 text-center text-white bg-zinc-800 border border-amber-300 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"
           />
         </button>
-        <button>zapzap</button>
-        <button>linkedin</button>
+        <a href="#">
+          <button className="m-2 border border-amber-300 bg-zinc-800 px-12 py-1 font-normal flex justify-center align-middle items-center">
+            <img src={Zap} className="inline" />
+            <span className="tracking-wide ml-1"> WhatsApp </span>
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/victor-msouza/">
+          <button className=" border border-amber-300 bg-zinc-800 px-12 py-1 font-normal flex justify-center align-middle items-center">
+            <img src={linkedinLogo} className="inline" />
+            <span className="tracking-wide ml-1"> LinkedIn </span>
+          </button>
+        </a>
       </div>
     </div>
   );
