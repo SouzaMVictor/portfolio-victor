@@ -1,5 +1,6 @@
 import { NavbarMobile } from "./NavbarMobile";
-import { MainApp } from "./MainApp";
+import { MainImage } from "./MainImage";
+import { MainTextComponent } from "./MainTextComponent";
 import { AboutApp } from "./AboutApp";
 import { Skills } from "./Skills";
 import { Porfolio } from "./Porfolio";
@@ -12,7 +13,8 @@ function App() {
   return (
     <div className="bg-zinc-950 min-h-screen scroll-smooth">
       <NavbarMobile />
-      <MainApp />
+      <MainImage />
+      <MainTextComponent />
       <AboutApp />
       <Skills />
       <Porfolio />
