@@ -5,8 +5,6 @@ import { AboutApp } from "./AboutApp";
 import { Skills } from "./Skills";
 import { Porfolio } from "./Porfolio";
 import { ContactMe } from "./ContactMe";
-
-//responsividade!! --> navbar e footer juntos (nao esquecer)
 //target events
 //imagens em webp
 function App() {

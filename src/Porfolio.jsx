@@ -55,7 +55,7 @@ const initialPortfolio = [
     description:
       "I developed a website in React that serves as a travel checklist. It allows users to add, edit, and check off items, ensuring nothing essential is forgotten before a trip. It's a simple yet incredibly useful tool for organizing travels efficiently. While developing it, I enhanced my skills in state management with React and focused on creating an intuitive and functional interface.",
     github: "https://github.com/SouzaMVictor/far-away-travel-list",
-    link: "#https://far-away-travel-list-psi.vercel.app/",
+    link: "https://far-away-travel-list-psi.vercel.app/",
   },
   {
     id: 5,
@@ -146,16 +146,6 @@ const initialPortfolio = [
     github: "https://github.com/SouzaMVictor/image-gallery",
     link: "https://cd4ncp.csb.app/",
   },
-  // {
-  //   id: 14,
-  //   title: "Login Modal",
-  //   image: ImgVictor,
-  //   tools: "HTML & Tailwind",
-  //   description:
-  //     "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
-  //   github: "https://github.com/SouzaMVictor/portfolio-victor",
-  //   link: "#",
-  // },
 ];
 export function Porfolio() {
   useEffect(() => {
