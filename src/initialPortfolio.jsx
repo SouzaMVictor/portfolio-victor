@@ -122,7 +122,7 @@ export const initialPortfolio = [
     description:
       "Practice assignmente for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
     github: "https://github.com/SouzaMVictor/pricing-cards",
-    link: "#",
+    link: "https://24z689.csb.app/",
   },
   {
     id: 12,
