@@ -30,7 +30,7 @@ export const initialPortfolio = [
     image: ImgAntonio,
     tools: "HTML, CSS & Javascript ",
     description:
-      "My first comissioned work as web developer: a landing page for a dentist in my hometown. Might see, simple, but the experience I gained from working on it was incredible and transformative, expanding my perspective on development and helping me grow both technically and personally. ",
+      "My first comissioned work as web developer: a landing page for a dentist in my hometown. Might seem simple, but the experience I gained from working on it was incredible and transformative, expanding my perspective on development and helping me grow both technically and personally. ",
     github: "https://github.com/SouzaMVictor/dr-antonio-matias",
     link: "https://dr-antonio-matias.vercel.app/",
   },

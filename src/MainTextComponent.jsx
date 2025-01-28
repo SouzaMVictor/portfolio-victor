@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { DownloadCV } from "./DownloadCV";
 
 export function MainTextComponent() {
   useEffect(() => {
@@ -34,10 +35,11 @@ export function MainTextComponent() {
           repeat={Infinity}
         />
       </div>
-      <div className="text-amber-50 text-xl font-semibold inline-block pb-8">
+      <div className="text-amber-50 text-xl font-semibold inline-block pb-6">
         Welcome to my portfolio website!
         <p className="animate-wiggle-animation inline-block">👋🏻</p>
       </div>
+      <DownloadCV />
     </div>
   );
 }

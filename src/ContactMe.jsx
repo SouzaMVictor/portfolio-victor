@@ -3,6 +3,23 @@ import Zap from "./assets/icons8-whatsapp (1).svg";
 import linkedinLogo from "./assets/icons8-linkedin.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { DownloadCV } from "./DownloadCV";
+
+const contacts = [
+  {
+    id: 1,
+    name: "WhatsApp",
+    icon: Zap,
+    link: "#",
+  },
+  {
+    id: 2,
+    name: "LinkedIn",
+    icon: linkedinLogo,
+    link: "https://www.linkedin.com/in/victor-msouza/",
+  },
+];
+
 export function ContactMe() {
   useEffect(() => {
     AOS.init();
@@ -28,25 +45,22 @@ export function ContactMe() {
           Thanks for getting to know me! Feel free to contact me by e-mail,
           WhatsApp or LinkedIn.
         </h2>
-        <button>
-          <input
-            type="text"
-            placeholder="Enter your email address"
-            className="p-2 px-4 text-center text-white bg-zinc-800 border border-amber-300 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"
-          />
-        </button>
-        <a href="#">
-          <button className="m-2 border border-amber-300 bg-zinc-800 px-12 py-1 font-normal flex justify-center align-middle items-center">
-            <img src={Zap} className="inline" />
-            <span className="tracking-wide ml-1"> WhatsApp </span>
-          </button>
-        </a>
-        <a href="https://www.linkedin.com/in/victor-msouza/">
-          <button className=" border border-amber-300 bg-zinc-800 px-12 py-1 font-normal flex justify-center align-middle items-center">
-            <img src={linkedinLogo} className="inline" />
-            <span className="tracking-wide ml-1"> LinkedIn </span>
-          </button>
-        </a>
+
+        {contacts.map((contact) => (
+          <a
+            key={contact.id}
+            href={contact.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full flex justify-center"
+          >
+            <button className="m-2 border border-amber-300 bg-zinc-800 px-12 py-2 font-normal flex items-center justify-center w-72">
+              <img src={contact.icon} alt={contact.name} className="w-6 h-6" />
+              <span className="tracking-wide ml-2">{contact.name}</span>
+            </button>
+          </a>
+        ))}
+        <DownloadCV />
       </div>
     </div>
   );
