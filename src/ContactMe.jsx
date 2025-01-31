@@ -10,7 +10,7 @@ const contacts = [
     id: 1,
     name: "WhatsApp",
     icon: Zap,
-    link: "#",
+    link: "https://wa.me/5516982167126",
   },
   {
     id: 2,
