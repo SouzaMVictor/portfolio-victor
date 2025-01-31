@@ -2,8 +2,8 @@ export function DownloadCV() {
   return (
     <div>
       <a
-        href="/public/CurrículoVictor-FrontEndDeveloper.pdf"
-        download="CurrículoVictor-FrontEndDeveloper.pdf"
+        href="/public/CurrículoVictor-FrontEndDeveloperAtt.pdf"
+        download="CurrículoVictor-FrontEndDeveloperAtt.pdf"
       >
         <button className="m-2 border border-amber-300 bg-zinc-800 px-12 py-2 font-normal flex items-center justify-center w-72 text-amber-50">
           <svg
