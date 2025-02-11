@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import js from "./assets/javascript_icon_130900.png";
 
 export function Skills() {
   const initialSkills = [
@@ -20,8 +21,7 @@ export function Skills() {
     {
       id: 3,
       title: "Javascript",
-      image:
-        "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
+      image: js,
       color: "#d1bf45",
     },
     {
