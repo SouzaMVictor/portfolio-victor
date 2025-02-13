@@ -34,10 +34,12 @@ export function AboutApp() {
           data-aos="fade-up"
           className="text-amber-50 text-2xl mx-9 text-justify"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-          asperiores incidunt dicta in distinctio quae eius voluptatibus ratione
-          itaque id, beatae iste quis, totam similique! Tempora nulla dicta
-          libero ratione?
+          Hey! My name is Victor Souza, I&apos;m 25 years old and I&apos;m a
+          React Developer! I began my studies in Front End Development in the
+          middle of 2024 because of a carreer change. I realize being a
+          veterinary doctor &#40;graduated in 2023&#41; would not be enough to
+          conquer my dreams and decided to migrate to the IT section. Crazy,
+          right?
         </p>
         <br />
         <br />
@@ -45,10 +47,9 @@ export function AboutApp() {
           data-aos="fade-up"
           className="text-amber-50 text-2xl mx-9 text-justify"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
-          debitis vel modi recusandae unde dicta adipisci sunt illo repellendus
-          voluptate quo dolor sapiente autem. Dolorem molestias dicta
-          perferendis praesentium quod?
+          Now, I want be part of a team of developers in a tech company and
+          achieve my dreamed position as a Front End Developer Junior! Keep
+          scrolling to see all my projects and feel free to contact me anytime.
         </p>
       </div>
     </section>
