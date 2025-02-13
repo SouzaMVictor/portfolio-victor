@@ -11,6 +11,7 @@ import PortfolioVictor from "./assets/portfolioVictor.png";
 import PricingGrid from "./assets/pricing.png";
 import ProductModal from "./assets/product-modal.png";
 import TipCalc from "./assets/tip-calculator.png";
+import usePopCorn from "./assets/usePopcorn.png";
 
 //read more nos textos do portfolio(text expander)
 export const initialPortfolio = [
@@ -96,6 +97,16 @@ export const initialPortfolio = [
   },
   {
     id: 9,
+    title: "UsePopcorn",
+    image: usePopCorn,
+    tools: "React",
+    description:
+      "Hardest Project yet! Fully functional app for storing the movies you've watched! Search, rate and store all movies you like. In this project, I learned about useEffect, custom hooks and many more React functionalities. ",
+    github: "https://github.com/SouzaMVictor/usepopcorn",
+    link: "https://usepopcorn-topaz.vercel.app/",
+  },
+  {
+    id: 10,
     title: "Glassmorphism",
     image: Glass,
     tools: "HTML & CSS",
@@ -105,7 +116,7 @@ export const initialPortfolio = [
     link: "https://5mxxw5.csb.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Email Subscribe Card",
     image: EmailSubscribe,
     tools: "HTML & Tailwind",
@@ -115,7 +126,7 @@ export const initialPortfolio = [
     link: "https://7d5259.csb.app/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Princing Grids",
     image: PricingGrid,
     tools: "HTML & Tailwind",
@@ -125,7 +136,7 @@ export const initialPortfolio = [
     link: "https://24z689.csb.app/",
   },
   {
-    id: 12,
+    id: 13,
     title: "Product Modal",
     image: ProductModal,
     tools: "HTML & Tailwind",
@@ -135,7 +146,7 @@ export const initialPortfolio = [
     link: "https://lzjz93.csb.app/",
   },
   {
-    id: 13,
+    id: 14,
     title: "Image Galery",
     image: Galery,
     tools: "HTML & Tailwind",
