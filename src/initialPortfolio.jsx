@@ -13,6 +13,7 @@ import ProductModal from "./assets/product-modal.png";
 import TipCalc from "./assets/tip-calculator.png";
 import usePopCorn from "./assets/usePopcorn.png";
 import ClassyWeather from "./assets/classy-weather.png";
+import loopstudios from "./assets/loopstudios.png";
 
 //read more nos textos do portfolio(text expander)
 export const initialPortfolio = [
@@ -160,10 +161,20 @@ export const initialPortfolio = [
     id: 15,
     title: "Classy Weather",
     image: ClassyWeather,
-    tools: "React & Tailwind",
+    tools: "React",
     description:
       "This app was made using class-based components. Developers used to write using Javascript classes insted of functions. It's important to know about class-based components if I come across a legacy app, but I will not be using this in my future projects.",
-    github: "#",
-    link: "#",
+    github: "https://github.com/SouzaMVictor/classy-weather",
+    link: "https://classy-weather-weld.vercel.app/",
+  },
+  {
+    id: 16,
+    title: "loopstudios",
+    image: loopstudios,
+    tools: "React & Tailwind",
+    description:
+      "Project for Tailwind course. Decided to add React to the game to spice things up!(even for a little bit)",
+    github: "https://github.com/SouzaMVictor/loopstudios-website",
+    link: "https://loopstudios-website-seven.vercel.app/",
   },
 ];
