@@ -12,6 +12,7 @@ import PricingGrid from "./assets/pricing.png";
 import ProductModal from "./assets/product-modal.png";
 import TipCalc from "./assets/tip-calculator.png";
 import usePopCorn from "./assets/usePopcorn.png";
+import ClassyWeather from "./assets/classy-weather.png";
 
 //read more nos textos do portfolio(text expander)
 export const initialPortfolio = [
@@ -154,5 +155,15 @@ export const initialPortfolio = [
       "Practice assignment for this Tailwind course I was taking. Tasks like this with tailwind makes things really easy!",
     github: "https://github.com/SouzaMVictor/image-gallery",
     link: "https://cd4ncp.csb.app/",
+  },
+  {
+    id: 15,
+    title: "Classy Weather",
+    image: ClassyWeather,
+    tools: "React & Tailwind",
+    description:
+      "This app was made using class-based components. Developers used to write using Javascript classes insted of functions. It's important to know about class-based components if I come across a legacy app, but I will not be using this in my future projects.",
+    github: "#",
+    link: "#",
   },
 ];
