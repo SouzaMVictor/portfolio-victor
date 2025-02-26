@@ -104,12 +104,10 @@ function Skill({ skill }) {
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.backgroundColor = skill.color;
-        e.currentTarget.style.color = "#18181b";
         e.currentTarget.style.transform = "scale(1.05)";
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.backgroundColor = "transparent";
-        e.currentTarget.style.color = "rgb(255, 240, 178)";
         e.currentTarget.style.transform = "scale(1)";
       }}
     >
