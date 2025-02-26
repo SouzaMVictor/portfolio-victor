@@ -10,13 +10,13 @@ export function NavbarMobile() {
     AOS.init();
   }, []);
   return (
-    <nav className="flex justify-between p-8">
+    <nav className="flex justify-center p-8">
       <h1
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="500"
         data-aos-delay="100"
-        className="text-2xl font-semibold text-ambar"
+        className="text-2xl pt-2 mr-2 font-semibold text-ambar"
       >
         victorSouza();
       </h1>
@@ -27,7 +27,7 @@ export function NavbarMobile() {
         data-aos-delay="300"
         href="https://github.com/SouzaMVictor"
       >
-        <img src={githubLogo} alt="github" className="w-12 rounded-full" />
+        <img src={githubLogo} alt="github" className="w-12 rounded-full mx-2" />
       </a>
       <a
         data-aos="fade-down"
