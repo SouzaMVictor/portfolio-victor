@@ -27,7 +27,7 @@ export function NavbarMobile() {
         data-aos-delay="300"
         href="https://github.com/SouzaMVictor"
       >
-        <img src={githubLogo} alt="github" className="w-12 rounded-full mx-2" />
+        <img src={githubLogo} alt="github" className="w-12 rounded-full " />
       </a>
       <a
         data-aos="fade-down"
